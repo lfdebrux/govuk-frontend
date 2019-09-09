@@ -1,6 +1,4 @@
-{% from "./components/skip-link/macro.njk" import govukSkipLink -%}
-{% from "./components/header/macro.njk" import govukHeader -%}
-{% from "./components/footer/macro.njk" import govukFooter -%}
+{% include "./components/all.njk" %}
 {# specify absolute url for the static assets folder e.g. http://wwww.domain.com/assets #}
 {%- set assetUrl = assetUrl | default(assetPath) -%}
 <!DOCTYPE html>
