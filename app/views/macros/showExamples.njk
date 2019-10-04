@@ -41,7 +41,7 @@
 
     <div class="govuk-width-container">
       {% set detailsHtml %}{% include "partials/code.njk" %}{% endset %}
-      {{- govukDetails({ summaryText: "Code", html: detailsHtml }) -}}
+      {{- govukDetails({ "summaryText": "Code", "html": detailsHtml }) -}}
     </div>
 
   </section>
