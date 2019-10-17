@@ -1,0 +1,6 @@
+.git
+.gitignore
+dist
+docs
+node_modules
+package
